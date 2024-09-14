@@ -1,0 +1,94 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-size: 20px;
+    margin: 0;
+    background-image: url('/2a_youtube-cover-photo_clean@1x-1.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+.contenido {
+    display: flex;
+    margin: 100px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+.contenido img{
+    border-radius: 20%;
+}
+
+.contenido p {
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.contacto {
+    margin: 100px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 20%;
+}
+
+
+
+header ul {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #000000;
+    list-style: none;
+    
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    padding: 50px;
+    background-color: #000000;
+    list-style: none;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul li a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+div.contacto input#enviar{
+    background-color: #000000;
+    color: white;
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div.contacto input#text{
+    height: 28px;
+    width: 400px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 1000px;
+    font-size: 16px;
+}
+
+
